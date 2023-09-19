@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PSLinksComponent } from './ps-links/ps-links.component';
+import { PsCountFormComponent } from './ps-count-form/ps-count-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    PSLinksComponent,
+    PsCountFormComponent
   ],
   imports: [
     BrowserModule

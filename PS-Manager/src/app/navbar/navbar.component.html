@@ -1,21 +1,36 @@
 <div>
-    <nav class="navbar navbar-expand-sm bg-info text-body fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-md bg-info text-body fixed-top">
+
+        <!-- Title/Home Link -->
         <a class="navbar-brand text-dark" href="#">STL8 Problem Solve</a>
-        <ul class="navbar-nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link text-light active" href="#">Submit Counts</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">View Wash</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">Floor Assignments</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">Sign In</a>
-            </li>
-        </ul>
+
+        <!-- Navbar Toggle Buton -->
+        <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div id="collapsibleNavbar" class="collapse navbar-collapse">
+
+            <!-- Main Navigation -->
+            <ul class="navbar-nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link text-light active" href="#">Submit Counts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">View Wash</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Floor Assignments</a>
+                </li>
+            </ul>
+
+            <!-- Authentication Navigation -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Sign In</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 </div>
