@@ -1,0 +1,23 @@
+#wash {
+    background-color: darkblue;
+}
+
+#building {
+    background-color: purple;
+}
+
+#west {
+    background-color: palevioletred;
+}
+
+#east {
+    background-color: lightsteelblue;
+}
+
+.sos {
+    background-color: skyblue;
+}
+
+.eos {
+    background-color: gold;
+}
