@@ -13,7 +13,7 @@ import { PSWashComponent } from './ps-wash/ps-wash.component';
     NavbarComponent,
     PSLinksComponent,
     PsCountFormComponent,
-    PSLinksComponent
+    PSWashComponent
   ],
   imports: [
     BrowserModule
