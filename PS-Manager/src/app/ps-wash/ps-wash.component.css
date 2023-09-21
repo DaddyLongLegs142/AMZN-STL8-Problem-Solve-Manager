@@ -1,23 +1,23 @@
 #wash {
-    background-color: darkblue;
+    background-color: rgb(63, 56, 74);
 }
 
 #building {
-    background-color: purple;
+    background-color: rgb(140, 100, 170);
 }
 
 #west {
-    background-color: palevioletred;
+    background-color: rgb(120, 100, 135);
 }
 
 #east {
-    background-color: lightsteelblue;
+    background-color: rgb(120, 100, 135);
 }
 
 .sos {
-    background-color: skyblue;
+    background-color: #0093f5;
 }
 
 .eos {
-    background-color: gold;
+    background-color: rgb(235, 172, 0);
 }
