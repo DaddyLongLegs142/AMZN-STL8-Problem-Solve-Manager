@@ -1,23 +1,27 @@
 #wash {
-    background-color: rgb(63, 56, 74);
+    background-color: #232f3e;
 }
 
 #building {
-    background-color: rgb(140, 100, 170);
+    background-color: #f3a847;
 }
 
 #west {
-    background-color: rgb(120, 100, 135);
+    background-color: #ffffff;
 }
 
 #east {
-    background-color: rgb(120, 100, 135);
+    background-color: #ffffff;
 }
 
 .sos {
-    background-color: #0093f5;
+    background-color: #146eb4;
 }
 
 .eos {
-    background-color: rgb(235, 172, 0);
+    background-color: #ff9900;
+}
+
+.differential {
+    background-color: #232f3e;
 }
