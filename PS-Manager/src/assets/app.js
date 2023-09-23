@@ -14,13 +14,13 @@ function displayWash() {
 }
 
 function navToSubmitForm() {
-    Document.getElementById(main-content).innerHTML = <app-ps-count-form></app-ps-count-form>;
-    Document.getElementById().classList.add(active);
-    Document.getElementById().classList.remove(active);
+    Document.getElementById("main-content").innerHTML = "<app-ps-count-form></app-ps-count-form>";
+    Document.getElementById("nav-submit").classList.add("active");
+    Document.getElementById("nav-wash").classList.remove("active");
 }
 
 function navToWash() {
-    Document.getElementById(main-content).innerHTML = <app-ps-wash></app-ps-wash>;
-    Document.getElementById().classList.add(active);
-    Document.getElementById().classList.remove(active);
+    Document.getElementById(main-content).innerHTML = "<app-ps-wash></app-ps-wash>";
+    Document.getElementById("nav-wash").classList.add("active");
+    Document.getElementById("nav-submit").classList.remove("active");
 }
